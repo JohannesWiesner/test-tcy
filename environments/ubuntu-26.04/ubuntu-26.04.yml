@@ -1,10 +1,58 @@
 name: ubuntu-26.04
 channels:
 - conda-forge
+- ejolly
 dependencies:
+- bctpy
+- datalad
+- distro
+- fastcluster
+- feature_engine
+- mne-connectivity
+- nilearn
+- nipype
+- oct2py
+- openneuro-py
+- openpyxl
+- pingouin
+- python-kaleido
+- polars
+- pybids
+- pydicom
+- pyreadstat
 - python
-- r-essentials
+- scikit-image
+- scikit-learn
+- skglm
+- spyder
+- statannotations
+- tableone
+- xmltodict
+- transformers
+- plotly
+- pytest
+- sysrsync
+- templateflow
+- odfpy
+- spyder-notebook
+- pymer4
 - r-base
+- r-devtools
+- r-essentials
+- r-repr
+- r-reticulate
 - pip
 - pip:
-  - scikit-learn
+  - abagen
+  - ancpbids
+  - atlasreader
+  - brainsmash
+  - brainspace
+  - cca-zoo
+  - clustergrammer
+  - gower
+  - network_control
+  - neuromaps
+  - nimare
+  - nisupply
+  - psmpy
