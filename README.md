@@ -73,6 +73,9 @@ The input spreadsheet file must contain the following columns:
 
 ---
 
+<details>
+<summary>Click to expand</summary>
+
 ## 🛠️🛠️ Only For Developers 🛠️🛠️
 
 ### Installation
@@ -103,9 +106,9 @@ tcy {linux|windows} [OPTIONS]
 
 #### Required positional argument
 
-- `{linux,windows}`  
-  Target operating system for which the environment file is generated.  
-  Packages flagged as incompatible with this OS are excluded.  
+- `{linux,windows}`
+  Target operating system for which the environment file is generated.
+  Packages flagged as incompatible with this OS are excluded.
   Packages flagged as `cross_platform` are never included.
 
 ---
@@ -275,3 +278,6 @@ TCY can generate an `install_cran_packages.sh` script that should:
 1. Activate the Conda environment
 2. Start R
 3. Install CRAN packages inside this environment using `install.packages()`
+
+</details>
+
