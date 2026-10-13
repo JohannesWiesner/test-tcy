@@ -74,7 +74,7 @@ The input spreadsheet file must contain the following columns:
 ---
 
 <details>
-<summary>Click to expand</summary>
+<summary><h2>Click to open Developers section! </h2></summary>
 
 ## 🛠️🛠️ Only For Developers 🛠️🛠️
 
